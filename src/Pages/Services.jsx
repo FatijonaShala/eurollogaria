@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import LayoutWrapper from '../Layout'
 import {Container, Row} from "react-bootstrap"
 import { Link } from 'react-router-dom';
+import ContactForm from '../Components/contact-form';
 
 function Services() {
   const [activeTab, setActiveTab] = useState(0);
@@ -247,7 +248,7 @@ function Services() {
               </div>
             </div>
             <div className="col-md-12">
-              <div className="contact-form">
+              {/* <div className="contact-form">
                 <form id="contact" action="" method="post">
                   <div className="row">
                     <div className="col-lg-4 col-md-12 col-sm-12">
@@ -312,7 +313,8 @@ function Services() {
                     </div>
                   </div>
                 </form>
-              </div>
+              </div> */}
+              <ContactForm/>
             </div>
           </Row>
         </Container>

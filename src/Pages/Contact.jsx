@@ -142,6 +142,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import LayoutWrapper from '../Layout';
+import ContactForm from '../Components/contact-form';
 
 function Contact() {
   return (
@@ -267,8 +268,10 @@ function Contact() {
                 </form>
               </div>
             </Col> */}
+
+
             <Col md={12}>
-              <div className="contact-form">
+              {/* <div className="contact-form">
                 <form id="contact" action="" method="post">
                   <Row>
                     <Col lg={4} md={12} sm={12}>
@@ -333,7 +336,8 @@ function Contact() {
                     </Col>
                   </Row>
                 </form>
-              </div>
+              </div> */}
+   <ContactForm/>
             </Col>
           </Row>
         </Container>
