@@ -754,6 +754,7 @@ ul.slick-dots {
 .more-info .left-image img {
     width: 100%;
     overflow: hidden;
+    padding-top: 100px;
 }
 
 .more-info .more-info-content {
@@ -805,9 +806,9 @@ ul.slick-dots {
 }
 
 .testimonials {
-    margin-top: 140px;
+    margin-top: 0.5px;
     background-color: #f7f7f7;
-    padding: 140px 0px;
+    padding: 40px 0px;
 }
 
 .testimonial-item .inner-content {

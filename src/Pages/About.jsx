@@ -15,7 +15,6 @@ function About() {
           </Row>
         </Container>
       </div>
-
       <div className="more-info about-info">
         <Container>
           <Row>
@@ -29,19 +28,14 @@ function About() {
                         Mësoni më shumë rreth <em>kompanisë tonë</em>
                       </h2>
                       <p>
-                        Eurollogaria është një firmë profesionale e
-                        kontabilitetit dhe konsulencës, e specializuar në
-                        ofrimin e shërbimeve financiare të lartë cilësie për
-                        klientët në tregun e biznesit. Nëpërmjet një ekipi të
-                        specializuar të profesionistëve të kontabilitetit,
-                        konsulentëve financiarë dhe ekspertëve të fushave të
-                        tjera të lidhura me financat, Eurollogaria ofron
-                        zgjidhje të personalizuara për të plotësuar nevojat
-                        unike të çdo klienti.
+                      Eurollogaria është një firmë profesionale e kontabilitetit dhe konsulencës që ka për qëllim të ofrojë shërbime financiare të lartë cilësie për klientët në tregun e biznesit. Me një fokus të veçantë në kontabilitet dhe financë, firma specializohet në ndihmën e klientëve të saj për të menaxhuar dhe kuptuar aspektet financiare të biznesit të tyre.
                       </p>
-                      <a href="" className="filled-button">
-                        Lexo më shumë
-                      </a>
+
+                      <p>Për të arritur këtë qëllim, Eurollogaria ka formuar një ekip të specializuar të profesionistëve të kontabilitetit, konsulentëve financiarë dhe ekspertëve të fushave të tjera të lidhura me financat. Këta profesionistë të kualifikuar dhe me përvojë përdorin njohuritë dhe ekspertizën e tyre për të ofruar zgjidhje të personalizuara për çdo klient.</p>
+                      <p>Puna e Eurollogaria fillon me njohjen e nevojave të klientit. Për të kuptuar plotësisht situatën financiare të një klienti, firma zhvillon një analizë të hollësishme të të dhënave financiare të biznesit. Kjo analizë ndihmon në identifikimin e sfidave dhe mundësive për rritje financiare.
+
+Me bazë në rezultatet e analizës, Eurollogaria ofron këshilla dhe konsulencë të specializuar për të përmirësuar menaxhimin financiar të biznesit. Kjo përfshin zhvillimin e strategjive të përshtatshme të financave, kontrollin e shpenzimeve, optimizimin e taksimit, dhe përgatitjen e raporteve financiare të rregullta dhe të besueshme.</p>
+                      
                     </div>
                   </Col>
                   <Col md={6}>
@@ -72,9 +66,13 @@ function About() {
                   financiare. Klientët tanë janë dëshmitarë të rezultateve të
                   shkëlqyera që kemi arritur për ta.
                 </p>
-                <a href="" className="filled-button">
-                  Lexo më shumë
-                </a>
+                <p>
+                  Ne kemi gëzuar një rrugëtim të pasur të sukseseve dhe
+                  arritjeve të mëdha në fushën e kontabilitetit dhe konsulencës
+                  financiare. Klientët tanë janë dëshmitarë të rezultateve të
+                  shkëlqyera që kemi arritur për ta.
+                </p>
+             
               </div>
             </Col>
             <Col md={6} className="align-self-center">
@@ -123,7 +121,7 @@ function About() {
             <Col md={6}>
               <div className="testimonial-item">
                 <div className="inner-content">
-                  <h4>Nje klient i kënaqur</h4>
+                  <h4> <em>Nje klient i kënaqur </em></h4>
                   <p>
                     "Eurollogaria është e vetmja zgjidhje për ne kur vjen puna e
                     kontabilitetit. Përmes shërbimeve të tyre kemi arritur të
@@ -135,7 +133,7 @@ function About() {
             <Col md={6}>
               <div className="testimonial-item">
                 <div className="inner-content">
-                  <h4>Nje klient i kënaqur</h4>
+                  <h4><em>Nje klient i kënaqur</em></h4>
                   <p>
                     "Eurollogaria është një partner i çmuar për ne dhe i
                     rekomandoj me plot besim për çdo biznes që kërkon shërbime

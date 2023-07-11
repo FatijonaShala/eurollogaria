@@ -58,14 +58,14 @@ function Home() {
               <div className="service-item">
                 <img src="images/service_01.jpg" alt="" />
                 <div className="down-content">
-                  <h4>Planifikimi i Taksave</h4>
+                  <h4>Shërbime kontabiliteti</h4>
                   <p>
-                    Eurollogaria ofron shërbime të plota për planifikimin dhe
-                    përshtatjen e taksave, për të siguruar që biznesi juaj të
-                    përmbushë të gjitha obligimet tatimore.
+                    Eurollogaria ofron shërbime të plota kontabiliteti që
+                      përfshin procesin e identifikimit, regjistrimit dhe
+                      vlerësimit të transaksioneve financiare. 
                   </p>
-                  <Link to="" className="filled-button">
-                    Read More
+                  <Link to="/services" className="filled-button">
+                    Lexo më shumë
                   </Link>
                 </div>
               </div>
@@ -80,8 +80,8 @@ function Home() {
                     fushën financiare për të ndihmuar bizneset të marrin vendime
                     financiare të informuara.
                   </p>
-                  <Link to="" className="filled-button">
-                    Read More
+                  <Link to="/services" className="filled-button">
+                  Lexo më shumë
                   </Link>
                 </div>
               </div>
@@ -90,13 +90,14 @@ function Home() {
               <div className="service-item">
                 <img src="images/service_03.jpg" alt="" />
                 <div className="down-content">
-                  <h4>Optimizimi i Proceseve Biznesore</h4>
-                  <p>
-                    Duke optimizuar proceset tuaja biznesore, ne ju ndihmojmë të
-                    arrini kursime të kostos dhe të përmirësoni performancën e
-                    përgjithshme.
+                  <h4>Të dhënat financiare</h4>
+                    <p>
+                      Janë të rëndësishme për organizatat
+                      në mënyrë që të monitorojnë performancën e tyre. Ofrojmë 
+                      përgatitjen, analizat & kontrollin e llogarive financiare.
+                   
                   </p>
-                  <Link to="" className="filled-button">
+                  <Link to="/services" className="filled-button">
                     Read More
                   </Link>
                 </div>
@@ -138,7 +139,6 @@ function Home() {
           </Row>
         </Container>
       </div>
-
       <div className="callback-form">
         <Container>
           <Row>
@@ -154,72 +154,6 @@ function Home() {
               </div>
             </Col>
             <Col md={12}>
-              {/* <div className="contact-form">
-                <form id="contact" action="" method="post">
-                  <Row>
-                    <Col lg={4} md={12} sm={12}>
-                      <fieldset>
-                        <input
-                          name="name"
-                          type="text"
-                          className="form-control"
-                          id="name"
-                          placeholder="Full Name"
-                          required=""
-                        />
-                      </fieldset>
-                    </Col>
-                    <Col lg={4} md={12} sm={12}>
-                      <fieldset>
-                        <input
-                          name="email"
-                          type="text"
-                          className="form-control"
-                          id="email"
-                          pattern="[^ @]*@[^ @]*"
-                          placeholder="E-Mail Address"
-                          required=""
-                        />
-                      </fieldset>
-                    </Col>
-                    <Col lg={4} md={12} sm={12}>
-                      <fieldset>
-                        <input
-                          name="subject"
-                          type="text"
-                          className="form-control"
-                          id="subject"
-                          placeholder="Subject"
-                          required=""
-                        />
-                      </fieldset>
-                    </Col>
-                    <Col lg={12}>
-                      <fieldset>
-                        <textarea
-                          name="message"
-                          rows="6"
-                          className="form-control"
-                          id="message"
-                          placeholder="Your Message"
-                          required=""
-                        ></textarea>
-                      </fieldset>
-                    </Col>
-                    <Col lg={12}>
-                      <fieldset>
-                        <button
-                          type="submit"
-                          id="form-submit"
-                          className="border-button"
-                        >
-                          Dërgo Mesazh{" "}
-                        </button>
-                      </fieldset>
-                    </Col>
-                  </Row>
-                </form>
-              </div> */}
               <ContactForm/>
             </Col>
           </Row>
