@@ -3,12 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import LayoutWrapper from '../Layout';
 import ContactForm from '../Components/contact-form';
+import HeaderSlider from '../Components/header-slider';
 
 function Home() {
   return (
     <div>
-      <div className="main-banner header-text" id="top">
-        <div className="Modern-Slider">
+       <div className="main-banner header-text" id="top"> 
+{          /*  <div className="Modern-Slider">
           <div className="item item-1">
             <div className="img-fill">
               <div className="text-content">
@@ -24,15 +25,16 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+        <HeaderSlider/>
+        </div> 
 
       <div className="request-form">
         <Container>
           <Row>
             <Col md={8}>
               <h4>Na kontaktoni për një telefonatë</h4>
-              <span>Eurollogaria - Gjendemi gati për të ju ndihmuar tani.</span>
+               <span> Gjendemi gati për të ju ndihmuar tani.</span> 
             </Col>
             <Col md={4}>
               <Link to="/contact" className="border-button">

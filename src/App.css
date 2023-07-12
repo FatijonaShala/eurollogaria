@@ -175,7 +175,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-    background-color: #B30000;
+    background-color: #343434;
     height: 46px;
     line-height: 46px;
 }
@@ -434,7 +434,8 @@ header .navbar {
     background-image: url(../public/images/slide_03.jpg);
 }
 
-.Modern-Slider .NextArrow {
+
+/* .Modern-Slider .NextArrow {
     position: absolute;
     top: 50%;
     right: 30px;
@@ -447,9 +448,10 @@ header .navbar {
     z-index: 5;
     outline: none;
     cursor: pointer;
-}
+} */
 
-.Modern-Slider .NextArrow:before {
+
+/* .Modern-Slider .NextArrow:before {
     content: '\f105';
 }
 
@@ -470,7 +472,7 @@ header .navbar {
 
 .Modern-Slider .PrevArrow:before {
     content: '\f104';
-}
+} */
 
 ul.slick-dots {
     display: none!important;
@@ -536,7 +538,7 @@ ul.slick-dots {
 }
 
 .Modern-Slider {
-    background: #000;
+    background-color: #B30000;
 }
 
 
@@ -631,7 +633,7 @@ ul.slick-dots {
 
 .request-form {
     background-color: #B30000;
-    padding: 30px 0px;
+    padding: 40px 0px;
     color: #fff;
 }
 
@@ -656,7 +658,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
-    margin-top: 140px;
+    margin-top: 70px;
 }
 
 .service-item img {
@@ -748,7 +750,7 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-    margin-top: 140px;
+    margin-top: 40px;
 }
 
 .more-info .left-image img {
