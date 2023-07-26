@@ -311,10 +311,10 @@ header .navbar {
 
 .navbar .navbar-nav a.nav-link {
     text-transform: capitalize;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 700;
     letter-spacing: 0.5px;
-    color: #fff;
+    color: #b2b1b1;
     transition: all 0.5s;
     margin-top: 5px;
 }
@@ -343,7 +343,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-    color: #82CFFD;
+    color: #fff;
     border-bottom: 3px solid #82CFFD;
 }
 
