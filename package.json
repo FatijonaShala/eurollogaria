@@ -1,5 +1,5 @@
 {
-    "name": "eurollogaria-website",
+    "name": "eurollogaria",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -17,7 +17,8 @@
         "slick-carousel": "^1.8.1",
         "web-vitals": "^2.1.4"
     },
-    "homepage": "https://FatijonaShala/eurollogaria",
+    "homepage": "https://fatijonashala.github.io/eurollogaria",
+
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build --skip-minify",
