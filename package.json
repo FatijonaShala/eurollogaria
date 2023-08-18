@@ -12,14 +12,12 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.13.0",
-        "react-scripts": "5.0.1",
+        "react-scripts": "^5.0.1",
         "react-slick": "^0.29.0",
         "slick-carousel": "^1.8.1",
         "web-vitals": "^2.1.4"
     },
-
-    "homepage": "https://fatijonashala.github.io/eurollogaria/",
-
+    "homepage": "https://fatijonashala.github.io/eurollogaria",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -28,6 +26,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
+
     "eslintConfig": {
         "extends": [
             "react-app",
