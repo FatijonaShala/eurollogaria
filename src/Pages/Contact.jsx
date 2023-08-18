@@ -26,7 +26,7 @@ function Contact() {
                 <i className="fa fa-phone"></i>
                 <h4>Telefoni</h4>
                 <p>Ne jemi në dispozicion në këtë numër.</p>
-                <a href="#">090-080-0760</a>
+                <a href="#">044-188-424</a>
               </div>
             </Col>
             <Col md={4}>
