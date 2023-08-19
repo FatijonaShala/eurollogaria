@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/eurollogaria/static/css/main.5e15ceb9.css",
+    "main.js": "/eurollogaria/static/js/main.b6fb1f01.js",
+    "static/js/787.25407b8b.chunk.js": "/eurollogaria/static/js/787.25407b8b.chunk.js",
+    "static/media/slide_02.jpg": "/eurollogaria/static/media/slide_02.ca39a780c71730719cc9.jpg",
+    "static/media/slide_03.jpg": "/eurollogaria/static/media/slide_03.01cdceb5fc44f35c3cbc.jpg",
+    "static/media/slide_01.jpg": "/eurollogaria/static/media/slide_01.200c324135acf00102c3.jpg",
+    "static/media/page-heading-bg.jpg": "/eurollogaria/static/media/page-heading-bg.44c374afc43e838a8fb9.jpg",
+    "static/media/fun-facts-bg.jpg": "/eurollogaria/static/media/fun-facts-bg.12a13b4ca23ea0436a08.jpg",
+    "index.html": "/eurollogaria/index.html",
+    "main.5e15ceb9.css.map": "/eurollogaria/static/css/main.5e15ceb9.css.map",
+    "main.b6fb1f01.js.map": "/eurollogaria/static/js/main.b6fb1f01.js.map",
+    "787.25407b8b.chunk.js.map": "/eurollogaria/static/js/787.25407b8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e15ceb9.css",
+    "static/js/main.b6fb1f01.js"
+  ]
+}
