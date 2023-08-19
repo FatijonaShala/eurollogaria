@@ -270,7 +270,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.current,
-*/ .background-header .navbar-nav .nav-link.show,
+.background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
     color: #B30000!important;
 }
