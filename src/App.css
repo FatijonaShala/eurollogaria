@@ -405,15 +405,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-    background-image: url(../public/images/slide_01.jpg);
+    background-image: url(../public/images/slide_01.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
-    background-image: url(../public/images/slide_02.jpg);
+    background-image: url(../public/images/slide_02.png);
 }
 
 .Modern-Slider .item-3 .img-fill {
-    background-image: url(../public/images/slide_03.jpg);
+    background-image: url(../public/images/slide_01.png);
 }
 
 ul.slick-dots {

@@ -10,7 +10,7 @@ function About() {
           <Row>
             <Col md={12}>
               <h1>Rreth Nesh</h1>
-              <span>Ne kemi mbi 10 vjet eksperiencë.</span>
+              <span>Ne kemi mbi 25 vite eksperiencë.</span>
             </Col>
           </Row>
         </Container>

@@ -39,9 +39,6 @@ const ContactForm = () => {
     }
   };
 
-//   if (isSubmitted) {
-//     return <h4>Faleminderit per!</h3>;
-//   }
 
   return (
     <div className="contact-form">

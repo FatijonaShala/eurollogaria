@@ -14,8 +14,8 @@ function Header() {
           <div className="col-md-8 col-xs-12">
              <ul className="left-info">      
           
-              <li><a href="#"><i className="fa fa-clock-o"></i>E Hënë - E Shtunë 08:00-16:00</a></li>
-              <li><a href="#"><i className="fa fa-phone"></i>044-188-424</a></li> 
+              <li><a><i className="fa fa-clock-o"></i>E Hënë - E Shtunë 08:00-16:00</a></li>
+              <li><a><i className="fa fa-phone"></i>044-188-424</a></li> 
             
           </ul>
         </div>

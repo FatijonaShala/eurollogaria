@@ -16,14 +16,14 @@ function Footer() {
               </p>
               <ul className="social-icons">
                 <li>
-                  <a rel="nofollow" href="" target="_blank">
+               
                     <i className="fa fa-facebook"></i>
-                  </a>
+                
                 </li>
                 <li>
-                  <a href="#">
+                  
                     <i className="fa fa-linkedin"></i>
-                  </a>
+                 
                 </li>
               </ul>
             </Col>

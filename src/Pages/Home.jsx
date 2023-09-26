@@ -8,33 +8,17 @@ import HeaderSlider from '../Components/header-slider';
 function Home() {
   return (
     <div>
-       <div className="main-banner header-text" id="top"> 
-{          /*  <div className="Modern-Slider">
-          <div className="item item-1">
-            <div className="img-fill">
-              <div className="text-content">
-                <h6>Jemi Gati të Ju Ndihmojmë</h6>
-                <h4>Kontabilitet &amp; Konsulencë</h4>
-                <p>
-                  Eurollogaria - Partneri Juaj i Besueshëm në Kontabilitet dhe
-                  Konsulencë.
-                </p>
-                <Link to="/contact" className="filled-button">
-                  na kontaktoni
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        <HeaderSlider/>
-        </div> 
+      <div className="main-banner header-text" id="top">
+
+        <HeaderSlider />
+      </div>
 
       <div className="request-form">
         <Container>
           <Row>
             <Col md={8}>
               <h4>Na kontaktoni për një telefonatë</h4>
-               <span> Gjendemi gati për të ju ndihmuar tani.</span> 
+              <span> Gjendemi gati për të ju ndihmuar tani.</span>
             </Col>
             <Col md={4}>
               <Link to="/contact" className="border-button">
@@ -63,8 +47,8 @@ function Home() {
                   <h4>Shërbime kontabiliteti</h4>
                   <p>
                     Eurollogaria ofron shërbime të plota kontabiliteti që
-                      përfshin procesin e identifikimit, regjistrimit dhe
-                      vlerësimit të transaksioneve financiare. 
+                    përfshin procesin e identifikimit, regjistrimit dhe
+                    vlerësimit të transaksioneve financiare.
                   </p>
                   <Link to="/services" className="filled-button">
                     Lexo më shumë
@@ -83,7 +67,7 @@ function Home() {
                     financiare të informuara.
                   </p>
                   <Link to="/services" className="filled-button">
-                  Lexo më shumë
+                    Lexo më shumë
                   </Link>
                 </div>
               </div>
@@ -93,11 +77,10 @@ function Home() {
                 <img src="images/service_03.jpg" alt="" />
                 <div className="down-content">
                   <h4>Të dhënat financiare</h4>
-                    <p>
-                      Janë të rëndësishme për organizatat
-                      në mënyrë që të monitorojnë performancën e tyre. Ofrojmë 
-                      përgatitjen, analizat & kontrollin e llogarive financiare.
-                   
+                  <p>
+                    Janë të rëndësishme për organizatat në mënyrë që të
+                    monitorojnë performancën e tyre. Ofrojmë përgatitjen,
+                    analizat & kontrollin e llogarive financiare.
                   </p>
                   <Link to="/services" className="filled-button">
                     Read More
@@ -156,7 +139,7 @@ function Home() {
               </div>
             </Col>
             <Col md={12}>
-              <ContactForm/>
+              <ContactForm />
             </Col>
           </Row>
         </Container>
