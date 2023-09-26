@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.85dc7a18.css",
-    "main.js": "/static/js/main.bcc59db9.js",
+    "main.css": "/static/css/main.1248a5ed.css",
+    "main.js": "/static/js/main.bfe4d32f.js",
     "static/js/787.25407b8b.chunk.js": "/static/js/787.25407b8b.chunk.js",
-    "static/media/slide_02.jpg": "/static/media/slide_02.ca39a780c71730719cc9.jpg",
-    "static/media/slide_03.jpg": "/static/media/slide_03.01cdceb5fc44f35c3cbc.jpg",
-    "static/media/slide_01.jpg": "/static/media/slide_01.200c324135acf00102c3.jpg",
+    "static/media/slide_01.png": "/static/media/slide_01.953e561b5a364130a75a.png",
+    "static/media/slide_02.png": "/static/media/slide_02.cd79e06f686ac7c48ed2.png",
     "static/media/page-heading-bg.jpg": "/static/media/page-heading-bg.44c374afc43e838a8fb9.jpg",
     "static/media/fun-facts-bg.jpg": "/static/media/fun-facts-bg.12a13b4ca23ea0436a08.jpg",
     "index.html": "/index.html",
-    "main.85dc7a18.css.map": "/static/css/main.85dc7a18.css.map",
-    "main.bcc59db9.js.map": "/static/js/main.bcc59db9.js.map",
+    "main.1248a5ed.css.map": "/static/css/main.1248a5ed.css.map",
+    "main.bfe4d32f.js.map": "/static/js/main.bfe4d32f.js.map",
     "787.25407b8b.chunk.js.map": "/static/js/787.25407b8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85dc7a18.css",
-    "static/js/main.bcc59db9.js"
+    "static/css/main.1248a5ed.css",
+    "static/js/main.bfe4d32f.js"
   ]
 }
